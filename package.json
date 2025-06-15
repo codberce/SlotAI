@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "build": "rspack build --mode=production",
-    "start": "ts-node server.ts",
+    "start": "node --loader ts-node/esm server.ts",
     "serve": "rspack serve --mode=development"
   },
   "dependencies": {

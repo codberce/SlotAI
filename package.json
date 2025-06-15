@@ -6,7 +6,7 @@
   "scripts": {
     "build": "rspack build --mode=production",
     "start": "node --loader ts-node/esm server.ts",
-    "serve": "rspack serve --mode=development"
+    "serve": "npm run build && npm run start"
   },
   "dependencies": {
     "@types/node": "20.14.10",
